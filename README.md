@@ -14,6 +14,6 @@ cd gdotstyle
 ./install.sh
 ```
 
-## Use
+## Usege
 
 Run `gdotstyle` from anywhere, type your 6-character HEX color (e.g., `ff5555`), and press Enter. Waybar and Sway will reload automatically.
