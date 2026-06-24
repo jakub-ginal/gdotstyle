@@ -7,6 +7,6 @@ A script to easily change the accent colors for Waybar and Sway themes.
 Run the following commands in your terminal to clone the repository and install the script:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/gdotstyle.git](https://github.com/YOUR_USERNAME/gdotstyle.git)
+git clone [https://github.com/jakub-ginal/gdotstyle.git](https://github.com/jakub-ginal/gdotstyle.git)
 cd gdotstyle
 ./install.sh
