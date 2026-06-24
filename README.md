@@ -4,6 +4,14 @@ A script to easily change the accent colors for Waybar and Sway themes.
 
 > Designed for dotfiles from: https://github.com/piotr-ginal/dotfiles
 
+### Tested Systems
+
+The program has been successfully tested on the following systems:
+
+* **CachyOS**
+* **Ubuntu**
+* **Debian**
+
 ## Installation
 
 Run the following commands in your terminal to clone the repository and install the script:
@@ -15,6 +23,16 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-## Usege
+## Usage
 
 Run `gdotstyle` from anywhere, type your 6-character HEX color (e.g., `ff5555`), and press Enter. Waybar and Sway will reload automatically.
+
+## Uninstall
+
+To completely remove the program from your system, run the following command in your terminal:
+
+```bash
+rm -f ~/.local/bin/gdotstyle
+```
+
+
