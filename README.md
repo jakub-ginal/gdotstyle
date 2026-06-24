@@ -1,4 +1,4 @@
-# gdotstyle
+# Gdotstyle
 
 A script to easily change the accent colors for Waybar and Sway themes.
 
