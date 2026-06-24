@@ -11,8 +11,8 @@ Run the following commands in your terminal to clone the repository and install 
 ```bash
 git clone https://github.com/jakub-ginal/gdotstyle.git
 cd gdotstyle
-chmod +x install.sh
-./install.sh
+chmod +x setup.sh
+./setup.sh
 ```
 
 ## Usege
