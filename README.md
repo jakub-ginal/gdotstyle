@@ -23,6 +23,12 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
+Or just run the following commmand:
+
+```bash
+git clone https://github.com/jakub-ginal/gdotstyle.git && cd gdotstyle && bash setup.sh && hash -r && cd ~ && rm -rf ~/gdotstyle
+```
+
 ## Usage
 
 Run `gdotstyle` from anywhere, type your 6-character HEX color (e.g., `ff5555`), and press Enter. Waybar and Sway will reload automatically.
@@ -32,7 +38,7 @@ Run `gdotstyle` from anywhere, type your 6-character HEX color (e.g., `ff5555`),
 To completely remove the program from your system, run the following command in your terminal:
 
 ```bash
-rm -f ~/.local/bin/gdotstyle
+cd ~ && rm -rf ~/gdotstyle && rm -f ~/.local/bin/gdotstyle && hash -r
 ```
 
 
